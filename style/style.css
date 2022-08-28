@@ -1,0 +1,109 @@
+/* div,nav a,p{
+    color: white;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+} */
+*{
+    margin: 0px;
+}
+body{
+    background-image: url("../images/ic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation{
+    
+    float:right;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.navigation a{
+    color:rgb(247, 241, 241);
+    text-decoration : none;
+    border: 2px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:10px;
+}
+header{
+    background-color: black;
+}
+#logo{
+   margin-bottom: 15px;
+    height: 6em;
+    width:8%;
+    margin-left: 10%;
+    margin-top:15px;
+}
+.navigation a:hover{
+    background-color: steelblue;
+    color: black;
+}
+.side{
+ color: white;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin: 100px;
+ width:50%;
+ float: left;
+ 
+}
+
+.side h3{
+ margin-bottom: 15px;
+ 
+}
+.side ul li{
+    padding: 2px;
+    list-style-type: square;
+}
+.mylogin{
+    border: 1px solid red;
+    background-color:beige;
+    float: right;
+    margin-top: 60px;
+    height: 15em;
+    padding: 30px;
+    margin-right: 20px;
+}
+.mylogin h2{
+    text-align: center;
+}
+.mylogin button{
+    background-color:dodgerblue;
+    border: none;
+    width: 100%;
+    color: white;
+    height: 1.5em;
+}
+.container{
+    margin-top: 450px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.container div{
+    width: 22%;
+    float: left;
+    border: 3px solid white;
+    background-color:gainsboro;
+    margin-left: 10px;
+    height:13em;
+    padding:10px;
+}
+.container div p{
+    text-align: justify;
+} 
+.container a{
+    color: red;
+}
+.container div h4{
+    text-align: center;
+    margin-bottom:15px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 58%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
